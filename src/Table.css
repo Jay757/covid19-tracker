@@ -1,0 +1,30 @@
+.table{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #6a5d5d;
+}
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td{
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd){
+    background-color: #f3f2f8;
+}
+::-webkit-scrollbar{
+    width: 10px;
+   
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent ,#00c6ff);
+    
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent ,#30ff00);
+}
