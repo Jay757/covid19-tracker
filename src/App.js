@@ -149,7 +149,7 @@ function App() {
           </Card>
           <Card className="app__right">
             <CardContent>
-              <h3 className="app__h3">Worldwide New cases</h3>
+              <h3 className="app__h3">Worldwide New {casesType} </h3>
               <LineGraph
                 className="app__graph"
                 casesType={casesType}
